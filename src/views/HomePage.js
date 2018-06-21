@@ -1,12 +1,14 @@
-import React from 'react';
-import '../stylesheets/listingPage.scss';
+import React from "react";
+import "../stylesheets/listingPage.scss";
+import HomePageContainer from "./containers/HomePageContainer";
 
 const HomePage = () => {
-    return (
-        <main>
-            Listing page
-        </main>
-    );
+  return (
+    <div>
+      <main>Listing page</main>
+      <HomePageContainer />
+    </div>
+  );
 };
 
 export default HomePage;

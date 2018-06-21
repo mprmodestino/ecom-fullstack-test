@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components Product List should render self and subcomponents 1`] = `
+<div
+  className="u-container"
+>
+  <section
+    className="c-product-list"
+  >
+    <ProductItem
+      item={
+        Object {
+          "cta": "Shop Now",
+          "ctaLink": "/random/link/to/no/where",
+          "currency": "£",
+          "description": "Lets your pictures speak for themselves.",
+          "image": Object {
+            "alt": "Simple Canvas",
+            "path": "/images/product.jpg",
+          },
+          "price": 1500,
+          "priceLabel": "From",
+          "productLabel": "bestseller",
+          "title": "Simple Canvas",
+        }
+      }
+      key="0"
+    />
+    <ProductItem
+      item={
+        Object {
+          "cta": "Shop Now",
+          "ctaLink": "/random/link/to/no/where",
+          "currency": "£",
+          "description": "Can't choose just one pic? Put your favourite photos on one canvas - a collage.",
+          "image": Object {
+            "alt": "Collage Canvas",
+            "path": "/images/product.jpg",
+          },
+          "price": 2500,
+          "priceLabel": "From",
+          "productLabel": "",
+          "title": "Collage Canvas",
+        }
+      }
+      key="1"
+    />
+  </section>
+</div>
+`;

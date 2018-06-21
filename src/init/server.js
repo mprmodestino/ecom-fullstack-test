@@ -51,6 +51,7 @@ app.use(compression({
 /**
  * Indicating our static folder and setting caching duration
  * */
+app.use('/images', express.static(path.resolve(__dirname, '../images/')));
 app.use('/dist', staticAsset(path.resolve(__dirname, '../../dist/'), { maxAge: ONE_YEAR_IN_MILLIS }));
 app.use('/dist', express.static(path.resolve(__dirname, '../../dist/'), { maxAge: ONE_YEAR_IN_MILLIS }));
 
